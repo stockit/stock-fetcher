@@ -1,0 +1,2 @@
+# stockit
+The scala application
