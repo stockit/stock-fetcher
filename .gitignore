@@ -1,10 +1,17 @@
 *.class
 *.log
 
+# OSX specific
+.DS_Store
+
+# IntelliJ
+.idea/
+
 # sbt specific
 .cache/
 .history/
 .lib/
+
 dist/*
 target/
 lib_managed/
