@@ -10,6 +10,7 @@ import org.apache.commons.httpclient.util.URIUtil
  */
 class Client {
   def query(statement: String) = {
+
     val baseUrl = "http://query.yahooapis.com/v1/public/yql?q="
     val fullUrlStr = baseUrl + URIUtil.encodeQuery(statement + "&format=json", "UTF-8")
 
